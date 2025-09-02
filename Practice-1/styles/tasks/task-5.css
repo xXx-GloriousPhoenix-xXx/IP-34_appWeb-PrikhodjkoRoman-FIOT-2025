@@ -1,0 +1,4 @@
+img {
+    border: 0.25em solid var(--light);
+    border-radius: 2em;
+}
