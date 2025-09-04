@@ -1,0 +1,14 @@
+:root {
+    --primary_color: #FDF6E3;
+    --secondary_color: #7B2D26;
+    --extra_color: #3E2C23;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+body {
+    background-color: var(--primary_color);
+    font: 16px Arial, sans-serif;
+}
