@@ -1,5 +1,5 @@
 const fetchContent = async (labNumber) => {
-    const res = await fetch(`/data/lab/sections.json`);
+    const res = await fetch(`${process.env.PUBLIC_URL}/data/lab/sections.json`);
     if (!res.ok) {
         throw new Error(`Помилка завантаження: ${res.status}`);
     }
