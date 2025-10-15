@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IP-34_appWeb-PrikhodjkoRoman-FIOT-2025/static/css/main.a6a7f104.css",
+    "main.js": "/IP-34_appWeb-PrikhodjkoRoman-FIOT-2025/static/js/main.21a1bb07.js",
+    "index.html": "/IP-34_appWeb-PrikhodjkoRoman-FIOT-2025/index.html",
+    "main.a6a7f104.css.map": "/IP-34_appWeb-PrikhodjkoRoman-FIOT-2025/static/css/main.a6a7f104.css.map",
+    "main.21a1bb07.js.map": "/IP-34_appWeb-PrikhodjkoRoman-FIOT-2025/static/js/main.21a1bb07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a7f104.css",
+    "static/js/main.21a1bb07.js"
+  ]
+}
