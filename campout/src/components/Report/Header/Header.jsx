@@ -15,7 +15,7 @@ const Header = () => {
                 </div>
             </div>
             <div className={cl.PfpWrapper}>
-                <ImageReference imgSrc={`${process.env.PUBLIC_URL}img/report/pfp.jpg`}/>
+                <ImageReference imgSrc={`${process.env.PUBLIC_URL}/img/report/pfp.jpg`}/>
             </div>
         </header>
     );
