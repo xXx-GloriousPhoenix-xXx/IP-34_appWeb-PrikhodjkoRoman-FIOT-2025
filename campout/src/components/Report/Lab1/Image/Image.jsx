@@ -7,16 +7,16 @@ const Image = () => {
             <div className={cl.ImageWrapper}>
                 <div className={cl.CodeImageWrapper}>
                     <img
-                        src="/img/report/image/component-code.png"
+                        src={`${process.env.PUBLIC_URL}/img/report/image/component-code.png`}
                         alt="image-component-code"
                     />
                     <img
-                        src="/img/report/image/usage-code.png"
+                        src={`${process.env.PUBLIC_URL}/img/report/image/usage-code.png`}
                         alt="image-usage-code"
                     />
                 </div>
                 <img
-                    src="/img/report/image/image.png"
+                    src={`${process.env.PUBLIC_URL}/img/report/image/image.png`}
                     alt="image-image"
                 />
             </div>

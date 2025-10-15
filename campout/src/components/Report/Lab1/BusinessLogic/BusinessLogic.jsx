@@ -51,7 +51,7 @@ const BusinessLogic = () => {
             </table>
             <div className={cl.UCWrapper}>
                 <h3>Діаграма UseCase</h3>
-                <img src="/img/report/uc.png" alt="UseCase" />
+                <img src={`${process.env.PUBLIC_URL}/img/report/uc.png`} alt="UseCase" />
             </div>
         </div>
     );

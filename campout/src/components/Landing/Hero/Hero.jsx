@@ -8,7 +8,7 @@ const Hero = () => {
     const classCollector = [cl.Wrapper, textcl["Bright"]].join(" ");
     return (
         <section className={classCollector}>
-            <ImageReference imgSrc="/img/camping-banner.png"/>
+            <ImageReference imgSrc={`${process.env.PUBLIC_URL}/img/camping-banner.png`}/>
             <div className={cl.LabelWrapper}>
                 <span>YOUR JOURNEY STARTS HERE</span>
                 <div className={cl.TextWrapper}>
