@@ -1,0 +1,7 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row nowrap;
+    gap: 2dvw;
+}

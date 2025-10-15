@@ -1,0 +1,21 @@
+h1 {}
+h2 {
+    font-size: 1.75dvw;
+    font-weight: bold;
+}
+a {
+    font-size: 1.5dvw;
+    font-weight: lighter;
+}
+h3 {
+    font-size: 1.35dvw;
+    font-weight: bold;
+}
+p {
+    font-size: 1.1dvw;
+    font-weight: normal;
+}
+em, span {
+    font-size: 1.1dvw;
+    font-weight: lighter;
+}

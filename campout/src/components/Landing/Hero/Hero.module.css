@@ -1,0 +1,28 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 12.5dvh;
+    height: 100dvh;
+}
+.LabelWrapper {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1.25dvw 3dvw;
+    border-radius: 1dvw;
+    font-size: 1.5dvw;
+}
+.LabelWrapper h1,
+.LabelWrapper p,
+.LabelWrapper span {
+    text-shadow: 2px 2px 8px black;
+    margin: 0;
+}
+.TextWrapper {
+    margin: 0.25em 0 1em 0;
+}

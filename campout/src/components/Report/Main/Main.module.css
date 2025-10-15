@@ -1,0 +1,45 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary_color);
+}
+.Wrapper > *:first-child {
+    margin-bottom: 5dvh;
+}
+.ViewWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.Content {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    height: auto;
+    border-style: solid;
+    border-color: var(--primary_color);
+    border-width: 0 0.15em;
+    background-color: var(--secondary_color_3);
+}
+.Content {
+    width: 15%;
+}
+.Lab {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:start;
+    align-items:start;
+    padding: 2em;
+    width: 85%;
+    background-color: var(--secondary_color_3);
+    border-width: 0 0.15em 0 0;
+    border-style: solid;
+    border-color: var(--primary_color);
+    height: auto;
+}

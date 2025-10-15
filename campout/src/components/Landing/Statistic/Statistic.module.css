@@ -1,0 +1,9 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}

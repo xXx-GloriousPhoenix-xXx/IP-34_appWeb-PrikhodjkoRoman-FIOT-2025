@@ -1,0 +1,9 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+    color: var(--primary_color);
+}
+.Wrapper p {
+    text-indent: 1em;
+}

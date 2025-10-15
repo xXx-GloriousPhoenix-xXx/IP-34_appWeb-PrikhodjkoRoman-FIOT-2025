@@ -1,0 +1,22 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column nowrap;
+}
+.Text {
+    text-indent: 2em;
+    text-align: justify;
+    background-color: var(--secondary_color_3);
+    padding: 1em;
+    border-radius: 1em;
+    height: 20dvh;
+}
+.Detail {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-flow: column nowrap;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}

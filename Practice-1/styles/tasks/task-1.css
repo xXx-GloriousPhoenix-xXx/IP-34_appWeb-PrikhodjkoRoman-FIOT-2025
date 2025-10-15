@@ -1,8 +1,0 @@
-div.task-1 > h1 {
-    font-size: 1.5em;
-    font-weight: bold;
-    gap: 0.5em;
-}
-div.task-1 > p {
-    text-align: left;
-}

@@ -1,0 +1,12 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+    color: var(--primary_color);
+}
+.ImageWrapper {
+    display: flex;
+    width: 60%;
+    flex-flow: column nowrap;
+    gap: 1em;
+}

@@ -1,0 +1,7 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}

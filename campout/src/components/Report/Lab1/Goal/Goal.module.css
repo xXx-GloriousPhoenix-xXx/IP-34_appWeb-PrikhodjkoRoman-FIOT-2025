@@ -1,0 +1,22 @@
+.Wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.75em;
+    color: var(--primary_color);
+}
+.Wrapper p {
+    font-size: 1.25em
+}
+.Wrapper ul {
+    list-style: disc;
+    margin-left: 2em;
+}
+.Wrapper a {
+    text-decoration: none;
+    color: var(--primary_color);
+    transition: 250ms;
+    font-size: 1.17em;
+}
+.Wrapper a:hover {
+    color: var(--secondary_color_1);
+}

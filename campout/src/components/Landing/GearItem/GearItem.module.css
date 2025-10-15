@@ -1,0 +1,22 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: var(--secondary_color_3);
+    width: 17.5dvw;
+    padding: 1em;
+    border-radius: 1em;
+}
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.ImageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    aspect-ratio: 2/1;
+}

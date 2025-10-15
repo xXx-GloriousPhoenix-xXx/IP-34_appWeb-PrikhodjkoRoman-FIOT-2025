@@ -1,0 +1,31 @@
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    height: 20dvh;
+    min-height: 20dvh;
+    width: 100%;
+    background-color: var(--primary_color);
+    color: var(--secondary_color_3);
+}
+.Intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%;
+    text-align: center;
+}
+.PfpWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    aspect-ratio: 1;
+    position: relative;
+    right: 2.5dvh;
+}
+.PfpWrapper > * {
+    border-radius: 1em;
+}

@@ -1,0 +1,6 @@
+.Bright {
+    color: var(--secondary_color_3);
+}
+.Dark {
+    color: var(--primary_color);
+}

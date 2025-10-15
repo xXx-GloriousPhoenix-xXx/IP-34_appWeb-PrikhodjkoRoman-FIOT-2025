@@ -1,0 +1,25 @@
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--primary_color)
+}
+.Wrapper table,
+.Wrapper td,
+.Wrapper th {
+    border: 0.15em solid var(--primary_color);
+    border-collapse: collapse;
+}
+.Wrapper td,
+.Wrapper th {
+    padding: 0.5em;
+}
+.Wrapper ol, ul {
+    margin-left: 2em;
+}
+.UCWrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    gap: 0.5em;
+}
