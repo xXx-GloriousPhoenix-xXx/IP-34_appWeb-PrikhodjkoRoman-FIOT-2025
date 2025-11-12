@@ -32,4 +32,7 @@
     
         scroll-snap-align: start;
     }
+    body {
+        overflow-y: hidden;
+    }
 } 
