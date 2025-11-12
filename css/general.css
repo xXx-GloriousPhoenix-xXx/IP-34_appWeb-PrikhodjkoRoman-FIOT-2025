@@ -1,0 +1,277 @@
+html {
+    height: 100%;
+    background-color: var(--normal_col);
+    font-size: 1dvw;
+}
+* {
+    font-family: 'Rubik', 'Varela Round', serif;
+}
+header, footer {
+    display: flex;
+    flex-flow: row nowrap;
+
+    height: 10dvh;
+
+    background-color: var(--dark_col);
+}
+header {
+    justify-content: space-between;
+}
+footer {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+}
+.icon.wrapper {
+    height: 100%;
+    aspect-ratio: 1;
+}
+img.icon,
+svg-icon svg {
+    height: 60%;
+    width: auto;
+    margin: auto;
+    cursor: pointer;
+}
+svg-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.name.wrapper {
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+}
+h1.name {
+    color: var(--normal_col);
+    font-size: 1.5em;
+    transition: 250ms;
+}
+
+.social-media.wrapper {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 0 1dvh;
+}
+.text.wrapper.centered {
+    justify-content: center;
+    align-items: center;
+}
+footer a.text {
+    color: var(--normal_col);
+    transition: 250ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer a.text:hover {
+    color: var(--bright_col);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1.35em;
+    padding: 0 1em;
+}
+nav > a {
+    transition: 250ms;
+    color: var(--normal_col);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0 0.25em;
+    text-align: center;
+    display: inline;
+}
+nav > a:hover {
+    color: var(--bright_col);
+}
+
+#logo {
+    display: flex;
+    cursor: pointer;
+    justify-content: start;
+}
+#logo:hover h1.name {
+    color: var(--bright_col);
+}
+
+.hero {
+    gap: 2em;
+}
+.hero > .wrapper {
+    display: flex;
+    justify-content: stretch;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+
+.image.wrapper.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: auto;
+}
+.image.wrapper.item {
+    border: 0.2em solid var(--dark_col);
+    border-radius: 2dvh;
+    overflow: hidden;
+    flex: 0 0 auto;
+}
+.image.wrapper.item > img {
+    width: 100%;
+    height: 100%;
+}
+
+.content.wrapper {
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+button.content {
+    background-color: var(--normal_col);
+    border: 0.2em solid var(--dark_col);
+    border-radius: 2em;
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+    transition: 250ms;
+    color: var(--dark_col);
+    font-weight: 700;
+}
+button.content:hover {
+    border-color: var(--bright_col);
+    color: var(--bright_col);
+}
+
+section.top-5 {
+    gap: 1em;
+}
+div.top-5.header {
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+div.top-5.main .image.wrapper.item {
+    float: right;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+
+.block-wrapper {
+    display: block;
+}
+.text.block-wrapper p {
+    margin: 0.5em;
+}
+
+section.advice {
+    gap: 1em;
+}
+
+table.advice {
+    border-spacing: 0;
+}
+
+div.advice.main {
+    border-radius: 1em;
+    overflow: hidden;
+    border: 0.2em solid var(--dark_col);
+}
+
+table.advice td:first-child {
+    text-align: center;
+}
+
+table.advice tr > * {
+    padding: 0.25em 0.5em;
+}
+
+table.advice td {
+    border-top: 0.2em solid var(--dark_col);
+}
+
+table.advice tr > *:not(:last-child) {
+    border-right: 0.2em solid var(--dark_col);
+}
+
+.field.wrapper {
+    flex-flow: column nowrap;
+    gap: 0.25em;
+}
+.field.wrapper label {
+    margin-left: 1em;
+}
+form {
+    background-color: transparent;
+    border: 0.2em solid var(--dark_col);
+    padding: 1em;
+    border-radius: 1.5em;
+}
+.field.wrapper input,
+.field.wrapper textarea,
+form button {
+    background-color: transparent;
+    color: var(--dark_col);
+    border: 0.2em solid var(--dark_col);
+    border-radius: 1em;
+    padding: 0.25em 0.5em;
+    transition: 250ms;
+    width: 20em;
+}
+.field.wrapper label {
+    transition: 250ms;
+}
+.field.wrapper *:first-child:hover,
+.field.wrapper *:first-child:hover ~ label,
+.field.wrapper *:first-child:focus,
+.field.wrapper *:first-child:focus ~ label,
+form.feedback button:hover { 
+    color: var(--bright_col);
+    border-color: var(--bright_col);
+}
+
+.field.wrapper {
+    flex-flow: column-reverse nowrap;
+}
+
+.hero .image.wrapper.item {
+    width: 30dvh;
+    height: 30dvh;
+}
+.top-5 .image.wrapper.item {
+    width: 20dvh;
+    height: 20dvh;
+}
+
+.field.wrapper textarea {
+    resize: none;
+    height: 6em;
+}
+.field.wrapper input {
+    height: 2em;
+}
+
+form.feedback {
+    gap: 1em;
+    flex-flow: column nowrap;
+}
+form button {
+    cursor: pointer;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    outline: none;
+}
+main > section {
+    color: var(--dark_col);
+}

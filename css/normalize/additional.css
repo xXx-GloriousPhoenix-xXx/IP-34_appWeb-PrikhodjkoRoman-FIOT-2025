@@ -1,0 +1,13 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.5em;
+}

@@ -1,0 +1,55 @@
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 1.25dvh;
+    }
+    #logo {
+        display: none;
+    }
+    img.icon {
+        padding-right: 1em;
+        height: 80%;
+    }
+    main {
+        display: flex;
+        gap: 1.5em;
+        padding: calc(1.5em + 10dvw) 0;
+        flex-flow: column nowrap;
+    }
+    .hero .image.wrapper.item {
+        width: 40dvw;
+        height: auto;
+    }
+    .top-5 .image.wrapper.item {
+        width: 70%;
+        height: auto;
+    }
+    div.top-5.main .image.wrapper.item {
+        float: none;
+        margin: 2em auto;
+    }
+    main section {
+        padding: 10dvw 5dvw;
+        height: auto;
+    }
+    nav {
+        width: 100%;
+    }
+    section.top-5:nth-child(even) > div.top-5.main {
+        flex-flow: column-reverse nowrap;
+    }
+    .content.wrapper {
+        gap: 2em;
+    }
+    h2 {
+        font-size: 1.65em;
+    }
+    p {
+        font-size: 1.25em;
+    }
+    button,
+    label,
+    input,
+    textarea {
+        font-size: 1.25em;
+    }    
+}
