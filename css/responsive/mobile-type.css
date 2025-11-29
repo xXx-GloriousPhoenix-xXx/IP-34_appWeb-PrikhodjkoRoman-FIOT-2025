@@ -8,7 +8,7 @@
     .social-media.wrapper > *{
         width: 3em;
     }
-    #contactForm {
+    #contact-form {
         display: flex;
         align-items: center;
         width: fit-content;

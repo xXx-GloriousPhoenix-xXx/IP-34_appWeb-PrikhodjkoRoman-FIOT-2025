@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="рослини, кактуси, фікуси, догляд за рослинами, домашні рослини">
+    <meta name="description" content="Plantify - ваш гід у світі домашніх рослин. Поради для початківців, каталог рослин та корисні статті">
+
+    <!-- General Styling -->
+    <link rel="stylesheet" href="../../css/normalize/base.css">
+    <link rel="stylesheet" href="../../css/normalize/additional.css">
+    <link rel="stylesheet" href="../../css/root.css">
+    <link rel="stylesheet" href="../../css/general.css">
+
+    <!-- Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <!-- Responsive Styling -->
+    <link rel="stylesheet" href="../../css/responsive/mobile-type.css">
+    <link rel="stylesheet" href="../../css/responsive/phone.css">
+    <link rel="stylesheet" href="../../css/responsive/tablet.css">
+    <link rel="stylesheet" href="../../css/responsive/pc-type.css">
+    <link rel="stylesheet" href="../../css/responsive/laptop.css">
+    <link rel="stylesheet" href="../../css/responsive/pc.css">
+
+    <!-- Current Page -->
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="shortcut icon" href="../../img/icon.png" type="image/x-icon">
+    <title>Plantify</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <div class="icon wrapper">
+                <img class="icon" src="../../img/icon.png" alt="icon">
+            </div>
+            <div class="name wrapper">
+                <h1 class="name">Plantify</h1>
+            </div>
+        </div>
+        <nav>
+            <a href="../home/index.html">Головна</a>
+            <a href="../catalogue/index.html">Каталог</a>
+            
+            <a href="../advice/index.html">Поради</a>
+            <a href="../about/index.html">Про нас</a>
+            <a href="../contact/index.html">Зворотній зв'язок</a>
+        </nav>
+    </header>   
+    <main>
+        <section class="feedback">
+            <div class="header feedback">
+                <h2>Форма зворотнього зв'язку</h2>
+            </div>
+            <form class="feedback form wrapper" id="contact-form">
+                <div class="field wrapper">
+                    <input type="text" name="name" placeholder="Ваше ім’я" required>
+                    <label for="name">Ім'я</label>
+                </div>
+                <div class="field wrapper">
+                    <input type="email" name="email" placeholder="example@dummy.com" required>
+                    <label for="email">Електронна пошта</label>
+                </div>
+                <div class="field wrapper">
+                    <textarea name="message" rows="4" placeholder="Ваше повідомлення..." required></textarea>
+                    <label for="message">Повідомлення</label>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="text wrapper centered">
+            <a 
+                class="text"
+                href="./copyright.html"
+            >
+                @ 2025 Copyright. All rights reserved.
+            </a>
+        </div>
+        <div class="social-media wrapper">
+            <div class="icon wrapper">
+                <svg-icon src="img/social/facebook.svg"></svg-icon>
+            </div>
+            <div class="icon wrapper">
+                <svg-icon src="img/social/instagram.svg"></svg-icon>
+            </div>
+            <div class="icon wrapper">
+                <svg-icon src="img/social/youtube.svg"></svg-icon>
+            </div>
+            <div class="icon wrapper">
+                <svg-icon src="img/social/tiktok.svg"></svg-icon>
+            </div>
+            <div class="icon wrapper">
+                <svg-icon src="img/social/telegram.svg"></svg-icon>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/socialMedia.js" defer></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
